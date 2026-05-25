@@ -1,0 +1,107 @@
+.container-principal{
+    margin-top: 50px;
+    display:flex;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    background: linear-gradient( rgb(4, 99, 55), rgb(59, 4, 95));
+    
+    
+}
+.container-left{
+    padding-left: 50px;
+    height: 500px;
+    position: sticky;
+    top: 0;
+}
+.identity{
+    margin-top: 50px;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+#devise{
+    font-size: 20px;
+}
+.menus{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.menu{
+    display: flex;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+.menu::before{
+    display: block;
+    background-color: black;
+    content: "";
+    height: 5px;
+    width: 70px;
+    margin-right: 10px;
+}
+img{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px; 
+    border: white;  
+}
+.reseaux{
+    margin-top: 40px;
+    height: 100px; 
+}
+.btn-cv{
+    border: 1px solid rgb(128, 0, 122);
+    height: 50px;
+    width: 230px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+    margin-top: -40px;
+    background: grey;
+
+}
+.container-right{
+position: relative;
+}
+.titre{
+    display: flex;
+    align-items: center;
+}
+.card{
+    border-left: 0.5px solid rgb(235, 11, 197);
+    border-bottom: 0.5px solid rgb(235, 11, 197);
+    height: 280px;
+    
+}
+.outil{
+    border: 1px solid grey;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 10px; 
+    background-color: grey;
+    
+}
+.outils{
+    display: flex;
+    gap: 10px;
+    align-content: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+#text{
+    padding-left: 200px;
+}
+.card h3{
+    padding-left: 160px;
+}
+
+
